@@ -1,0 +1,10 @@
+! name: No Google
+! description: Rerank results to remove pages / threads hosted on Google.
+! public: true
+! author: Rack1538
+
+$discard,site=*.google.com
+$discard,site=*.googledomains.com
+$discard,site=*.googlecasinogames.com
+$discard,site=*.gmail.com
+$discard,site=*.googlehdtv.net
